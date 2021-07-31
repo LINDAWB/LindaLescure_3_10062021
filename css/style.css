@@ -10,9 +10,14 @@
 }
 */
 body {
-  color: blue;
   margin: 0;
   padding: 10px;
+}
+
+body header {
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
 }
 
 @media screen and (min-width: 575px) and (max-width: 880px) {

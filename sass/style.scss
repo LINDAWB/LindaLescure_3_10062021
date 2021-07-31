@@ -19,9 +19,13 @@ $colorPrimarySass3: #99e2d0;
 $paddingBody: 10px;
 
 body {
-  color: blue;
   margin: 0;
   padding: $paddingBody;
+  header {
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+  }
 }
 
 // Format tablette de 575 px à 880px
