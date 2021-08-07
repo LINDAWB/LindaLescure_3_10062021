@@ -20,6 +20,20 @@ body header {
   text-align: center;
 }
 
+img {
+  width: 150px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imageCard div img {
+  width: 150px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media screen and (min-width: 575px) and (max-width: 880px) {
   body {
     background-color: #ff79da;

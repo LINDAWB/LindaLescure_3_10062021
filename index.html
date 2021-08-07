@@ -7,38 +7,113 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/css/style.css">
 	<title>Ohmyfood</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+		integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
 </head>
 
 <body>
 	<div class="container">
-		<header>ohmyfood</header>
-		<div id="searchbar">localisation</div>
-		<p>Réservez le menu qui vous convient</p>
-		<p>Découvrez des restaurants d'exception sélectionnés par nos soins</p>
-		<div id="btn">Explorer nos restaurants</div>
-		<p>Fonctionnement</p>
-		<ol>
-			<li>Choisissez un restaurant</li>
-			<li>Composez votre menu</li>
-			<li>Dégustez au restaurant</li>
-		</ol>
-		<div class="slider">Image</div>
-		<article>Menu
-			<div class="menu1">
-				<a href="/html/menu1.html">Menu1</a>
+		<header><img src="/media/images/logo/ohmyfood@2x.svg" alt=""></header>
+		<main>
+			<div id="searchbar"><i class="fas fa-map-marker-alt"></i><input type="text" placeholder="Paris, Belleville">
 			</div>
-			<div class="menu2">
-				<a href="/html/menu2.html">Menu2</a>
+			<h1>Réservez le menu qui vous convient</h1>
+			<p>Découvrez des restaurants d'exception sélectionnés par nos soins</p>
+			<button>Explorer nos restaurants</button>
+
+			<h2>Fonctionnement</h2>
+			<div>
+				<p>1</p>
+				<button> <i class="fas fa-mobile-alt"></i> Choisissez un restaurant</button>
 			</div>
-			<div class="menu3">
-				<a href="/html/menu3.html">Menu3</a>
+			<div>
+				<p>2</p>
+				<button><i class="fas fa-list-ul"></i> Composez votre menu</button>
 			</div>
-			<div class="menu4">
-				<a href="/html/menu4.html">Menu4</a>
+			<div>
+				<p>3</p>
+				<button> <i class="fas fa-store"></i> Dégustez au restaurant</button>
+			</div>
+		</main>
+		<article>
+			<h2>Restaurants</h2>
+			<div id="cards">cards
+				<div class="imageCard">
+					<img src="/media/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+					<p>nouveau</p>
+				</div>
+				<div class="textCard">
+					<div>
+						<a href="/html/menu1.html">
+							<p><strong>La palette du goût</strong></p>
+						</a>
+						<p>Ménilmontant</p>
+					</div>
+					<div>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+			<div id="cards">cards
+				<div class="imageCard">
+					<img src="/media/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+					<p>nouveau</p>
+				</div>
+				<div class="textCard">
+					<div>
+						<a href="/html/menu2.html">
+							<p><strong>La palette du goût</strong></p>
+						</a>
+						<p>Ménilmontant</p>
+					</div>
+					<div>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+			<div id="cards">cards
+				<div class="imageCard">
+					<img src="/media/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+				</div>
+				<div class="textCard">
+					<div>
+						<a href="/html/menu3.html">
+							<p><strong>La palette du goût</strong></p>
+						</a>
+						<p>Ménilmontant</p>
+					</div>
+					<div>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+			<div id="cards">cards
+				<div class="imageCard">
+					<img src="/media/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+				</div>
+				<div class="textCard">
+					<div>
+						<a href="/html/menu4.html">
+							<p><strong>La palette du goût</strong></p>
+						</a>
+						<p>Ménilmontant</p>
+					</div>
+					<div>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
 			</div>
 		</article>
-		<footer>footer</footer>
-	</div>
+		<footer>
+			<img src="/media/images/logo/ohmyfood@2x.svg" alt="">
+			<ul>
+				<li><a href=""><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
+				<li><a href=""><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
+				<li><a href="">Mentions légales</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</footer>
 
 </body>
 
